@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+        <!-- Header -->
+        <header>
+            <h1>✌️Hi, I'm Olufunso Adedokun</h1>
+            <p>Software Engineer | Tech Enthusiast | Civil Engineer</p>
+        </header>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I'm passionate about building scalable backend systems, creating APIs, and solving real-world problems with technology. <br>
+                I also explore IoT and embedded systems in my spare time.
+            </p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+                <button onclick="filterProjects('all')">ALL</button>
+                <button onclick="filterProjects('web')">Web Apps</button>
+                <button onclick="filterProjects('api')">APIs</button>
+                <button onclick="filterProjects('iot')">IoT</button>
+            </div>
+
+            <div class="projects-container">
+                <!-- Project Card-->
+                <div class="project-card">
+                    <h3>🌦️ Weather App</h3>
+                    <p>A simple weather app that fetches live data using an API.</p>
+                    <a href="https://github.com/Funsho-Adedokun/weather-app" target="_blank">🔗 view on GitHub</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>📝 Blog API</h3>
+                    <p>A RESTFUL API built with PHP & MySQL for managing blog posts.</p>
+                    <a href="https://github.com/Funsho-Adedokun/blog-api" target="_blank">🔗 view on GitHub</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>💼 Portfolio Website</h3>
+                    <p>This personal portfolio built with HTML, CSS, and JavaScript.</p>
+                    <a href="https://github.com/Funsho-Adedokun/portfolio" target="_blank">🔗 view on GitHub</a>
+                </div>
+
+                 <div class="project-card">
+                    <h3>🛠️ IoT Sensor Dashboard</h3>
+                    <p>An IoT project that tracks sensor data and displays it live.</p>
+                    <a href="https://github.com/Funsho-Adedokun/iot-dashboard" target="_blank">🔗 view on GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:Adedokun.olufunso@gmail.com"></a></p>
+            <p>LinkedIn: <a href="www.linkedin.com/in/olufunso-a-1b698b290" target="_blank">linkedin.com/in/Funsho-Adedokun</a></p>
+            <p>GitHub: <a href="https://github.com/Funsho-Adedokun" target="_blank">github.com/Funsho-Adedokun</a></p>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2025 Olufunso Adedokun. Built with ❤️ and GitHub Pages.</p>
+        </footer>
+
+        <script src="script.js"></script>
+</body>
+</html>
